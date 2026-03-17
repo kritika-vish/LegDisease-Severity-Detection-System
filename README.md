@@ -53,14 +53,9 @@ Input interface:
 User provides patient information and uploads an image
 
 Output Example:
-- Patient Name: Sanju
-- Age: 31
-- Gender: Male
+![image Alt](https://github.com/kritika-vish/LegDisease-Detection-System/blob/9b494afff20dc6ed475b7db48dd88d6b074f1f30/App%20interface/Screenshot%202026-03-15%20113715.png)
 
-KNN Prediction: Level 2       
-SVM Prediction: Level 2
-
-If the uploaded image is not a leg image:
+If the uploaded image is not valid:
 → The image is not valid for prediction and shows undefined
 
 
