@@ -47,6 +47,7 @@ Stage 2 – Disease Severity Prediction
 - Feature Extraction: Histogram of Oriented Gradients (HOG)
 
 ## Application Interface
+![image Alt](https://github.com/kritika-vish/LegDisease-Detection-System/blob/096f98f53e5576e2f5d92ece71c600d862d0c406/App%20interface/Screenshot%202026-03-15%20111748.png)
 
 Input interface:
 User provides patient information and uploads an image
