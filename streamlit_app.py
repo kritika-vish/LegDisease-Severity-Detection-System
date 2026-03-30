@@ -9,12 +9,14 @@ import joblib
 
 # ---------------- LOAD MODELS ----------------
 
+# Stage 1
 stage1_model = load_model("leg_model_final")
 
-knn_model = joblib.load("knn_pipeline_new.pkl")
-svm_model = joblib.load("svm_model_new.pkl")
-svm_scaler = joblib.load("svm_scaler_new.pkl")
-svm_pca = joblib.load("svm_pca_new.pkl")
+# Stage 2
+knn_model = joblib.load("knn_model.pkl")
+svm_model = joblib.load("svm_model.pkl")
+svm_scaler = joblib.load("svm_scaler.pkl")
+svm_pca = joblib.load("svm_pca.pkl")
 
 # ---------------- PREPROCESS ----------------
 
